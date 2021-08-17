@@ -1,12 +1,12 @@
 # Basic
-title: 青柠学术
+title: phscholarx
 subtitle: 个人站
 description: 每个科研小白都有成为大神的潜力。
 # 头像里面的标题
-avatarTitle: iseex
+avatarTitle: guantian
 # 头像里面的描述
 avatarDesc: 学术 / 成长
-url: "https://iseex.github.io/"
+url: "https://guandaozhixing.github.io/"
 
 # Comment
 comment:
@@ -16,23 +16,23 @@ comment:
 # Social
 social:
    # weibo: iseexuhs
-    weixin: 青柠学术 
-    zhihu:  iseex
+   # weixin: 青柠学术 
+   # zhihu:  iseex
    # facebook: iseexuhs
    # twitter: iseexuhs
     #github: iseex
-    mail: iseexuhs@gmail.com
+   # mail: iseexuhs@gmail.com
 
 # 百度统计 
 # https://tongji.baidu.com/sc-web/10000034379/home/site/getjs?siteId=13753674
-baidu:
-    id: b0ecab2411ae3fdb11b239f4a68ade48
+#baidu:
+#    id: b0ecab2411ae3fdb11b239f4a68ade48
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
-ga:
-   id: UA-124182047-1   
-   host: auto  
+#ga:
+#   id: UA-124182047-1   
+#   host: auto  
 
 
 # 《----------------- 添加 by xhs ---------------------------》
