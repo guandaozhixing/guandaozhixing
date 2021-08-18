@@ -20,16 +20,16 @@ The simplest non-trivial topology : 1-d lattice.
 Peierls instability makes the atoms dimerize. 
 
 
-![](/images/1/1.png)
+[](/images/1/1.png)
 
 Polyacetylene Structure: 
 
-![](/images/1/2.png)
+[](/images/1/2.png)
 
 ## Tight-binding method: first quantization
 
 
-![](/images/1/3.png)
+[](/images/1/3.png)
    1-d atom chain
 Tight-binding method: Single electron total Hamiltonian in atom chain:
 
@@ -131,7 +131,6 @@ $$ \hat{H}=\sum\limits_k \hat{c}_k^\dagger \hat{c}_k(te^{ika}+t^*e^{-ika})=\sum\
 
 which gives us the dispersion relation:
 
-
 $$
    E(k)=&te^{ika}+t^*e^{-ika}\\
    =&2tcoska \qquad \textit{for t is real}
@@ -139,7 +138,6 @@ $$
 
 On the other hand, keep in mind that we would get
 $c_n=e^{ik(n-1)a}c_1$, that is
-
 
 $$
    \hat{H}=\begin{pmatrix}c_1^\dagger&c_2^\dagger&\cdots&c_M^\dagger \end{pmatrix}
@@ -151,8 +149,6 @@ $$
    \end{pmatrix}
    \begin{pmatrix}c_1\\c_2\\\vdots\\c_M\end{pmatrix}
 $$
---------------
-
 
 $$
    \Rightarrow &\begin{pmatrix}c_1^\dagger&c_1^\dagger e^{-ika}&\cdots&c_1^\dagger e^{-ik(M-1)a} \end{pmatrix}
@@ -186,7 +182,7 @@ band structure $E(k)=2tcoska$ is not the stable fundamental mode,
 it will dimerizes to lower the total energy, that means we'll get
 following coupling case: 
 
-![](/images/1/2.jpg
+[](/images/1/2.jpg)
 
 
 with the Hamiltonian:
@@ -230,13 +226,13 @@ $$
 
 $t_n$ can differ from each other.
 
-#. For a open chain with $M$ atoms, we have $t_M=0$, and
+- For a open chain with $M$ atoms, we have $t_M=0$, and
    this matrix will give us $M$ eigen-values and eigen-functions.
 
-#. Possess translational invariance with $c_{n+1}=c_1e^{ikna}$, it
+- Possess translational invariance with $c_{n+1}=c_1e^{ikna}$, it
    will be diagonalized with $H(k)=te^{ika}+t^*e^{-ika}$.
 
-#. Staggered hopping parameters with $t_1\neq t_2$, but have
+- Staggered hopping parameters with $t_1\neq t_2$, but have
    property $c_{2n+1}=c_1e^{iknb},c_{2n+2}=c_2e^{iknb}$. We can
    block the Hamiltonian up in $2\times 2$ blocks and also pair up
    $c_{2n+1},c_{2n+2}$.
@@ -249,7 +245,7 @@ The Hamiltonian:
 
 with $M=2N$. 
 
-![](/images/1/2.jpg
+[](/images/1/2.jpg)
    
 
 For a more beautiful notation, define
@@ -401,7 +397,7 @@ with $tan\phi=h_y/h_x$.
 
 For example, set $arg(v)=arg(w)=0$, we have 
 
-![](/images/1/energy.png)
+[](/images/1/energy.png)
 
 
 Can not tell the difference $|v|-|w|=\pm\delta$.
@@ -421,7 +417,7 @@ Set $arg(v)=0$,\ $kb=[0,2\pi]$, we have two cases
 
 --------------
 
-![](/images/1/two.png)
+[](/images/1/two.png)
  
 
    two cases
@@ -449,7 +445,7 @@ When
 
 A example, $N=20, M=2N=40, w=1, v=0.5$, we get eigen-energys:
 
-![](/images/1/4.png)
+[](/images/1/4.png)
 
 
 
@@ -457,33 +453,33 @@ A example, $N=20, M=2N=40, w=1, v=0.5$, we get eigen-energys:
 
 --------------
 
-![](/images/1/a-.png)
+[](/images/1/a-.png)
 
    
-![](/images/1/a+.png)
+[](/images/1/a+.png)
 
    
    
-![](/images/1/b-.png)
+[](/images/1/b-.png)
 
    
 
-![](/images/1/b+.png)
+[](/images/1/b+.png)
 
 
 --------------
 
 Edge-states: 
 
-![](/images/1/c1.png)
+[](/images/1/c1.png)
 
 
-![](/images/1/c2.png)
+[](/images/1/c2.png)
 
 
 Chiral symmetry
 ---------------
-![](/images/1/2.jpg
+[](/images/1/2.jpg)
   
 
 Recalling the Hamiltonian:
@@ -590,7 +586,7 @@ $|\pm\rangle=\begin{pmatrix}\pm e^{-i\phi(k)}\\ 1\end{pmatrix}$.
 
 $\mathbf{h}(k)$ depicted as follow:
 
-![](/images/1/two.png)
+[](/images/1/two.png)
 
    
 
@@ -612,20 +608,20 @@ transition:
 
 Case 1(a): $v=0.5, w=0\to 1$
 
-![](/images/1/a.jpg
+[](/images/1/a.jpg)
    
 
-![](/images/1/figure_1a.png)
+[](/images/1/figure_1a.png)
    
 
 --------------
 
 Case 1(b): $w=1, v=2.5\to 0$
 
-![](/images/1/c.jpg
+[](/images/1/c.jpg
 
 
-![](/images/1/figure_3.png)
+[](/images/1/figure_3.png)
 
 
 
@@ -643,10 +639,10 @@ $H(k)=\mathbf{h}(k)\cdot\mathbf{\sigma}$ with $h_z(k)=u$.
 
 Set $w=1, v=1.5-cos\theta, u=sin\theta, \theta=0\to \pi$,
 
-![](/images/1/b.jpg
+[](/images/1/b.jpg)
 
 
-![](/images/1/figure_2.png)
+[](/images/1/figure_2.png)
 
 
 -------------
@@ -659,31 +655,30 @@ $v=t_0-\delta(t), w=t_0+\delta(t)$. set
 $u=sin\theta, v=0.75-0.25cos\theta, w=0.75+0.25cos\theta$, the
 vector $\vec{h(k)}$ is
 
-![](/images/1/5a.png)
+[](/images/1/5a.png)
 
-![](/images/1/5b.png)
+[](/images/1/5b.png)
 
-![](/images/1/5c.png)
+[](/images/1/5c.png)
    
-![](/images/1/5d.png)
+[](/images/1/5d.png)
  
 
 --------------
 
 The energy band evolution is
 
-![](/images/1/figure_4.png)
+[](/images/1/figure_4.png)
 
 
    energy4
 
-![](/images/1/1a.png)
+[](/images/1/1a.png)
 
-![](/images/1/2a.png)
+[](/images/1/2a.png)
 
 
-Winding number v.s. Zak phase
------------------------------
+## Winding number v.s. Zak phase
 
 From
 
