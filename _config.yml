@@ -8,6 +8,10 @@ avatarTitle: guantian
 avatarDesc: 学术 / 成长
 url: "https://guandaozhixing.github.io/"
 
+markdown: kramdown
+
+
+
 # Comment
 comment:
     # disqus: leopard
