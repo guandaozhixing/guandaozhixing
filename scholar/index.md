@@ -11,29 +11,25 @@
 </head>
 
 # Lecture 1 : 1-d SSH model
-=========================
+
 
 ## The Su-Schrieffer--Heeger (SSH) model
--------------------------------------
 
 The simplest non-trivial topology : 1-d lattice.
 
 Peierls instability makes the atoms dimerize. 
 
 
-![](/images/1/1.png))  
-   
+![](/images/1/1.png)
 
 Polyacetylene Structure: 
 
-
-![](/images/1/2.png)) 
+![](/images/1/2.png)
 
 ## Tight-binding method: first quantization
----------------------------------------
 
 
-![](/images/1/3.png)) 
+![](/images/1/3.png)
    1-d atom chain
 Tight-binding method: Single electron total Hamiltonian in atom chain:
 
@@ -83,12 +79,13 @@ $$E-E_0=-\sum_n J(x_n)e^{-ikx_n}$$
 Consider only the nearest-hopping interaction, define
 $J_0=J(0), J=J(\pm a)$, then we have:
 
-
-   $$E-E_0+J_0=&-J(e^{ika}+e^{-ika}) \\
-   =&-2Jcoska$$
+$$
+E-E_0+J_0=&-J(e^{ika}+e^{-ika}) \\
+   =&-2Jcoska
+$$
 
 ## Second quantization
--------------------
+
 
 In the second quantization language, the expectation value of energy
 becomes a operator, set $\mathscr{H}=\frac{p^2}{2m}+U(x)$, we have
@@ -295,26 +292,23 @@ $$
    \end{pmatrix}
 $$
 
---------------
-
-
 $$
-   H_{mn}=\begin{pmatrix}U_1&T_1&0&\cdots&T_6^\dagger\\
-   T_1^\dagger&U_2&T_2&\cdots&0\\
-   0&T_2^\dagger&U_3&\cdots&0\\
-   \vdots&\vdots&\vdots&\vdots&\vdots\\
-   T_6&0&0&\cdots&U_6
-   \end{pmatrix}
+H_{mn}=\begin{pmatrix}U_1&T_1&0&\cdots&T_6^\dagger\\
+T_1^\dagger&U_2&T_2&\cdots&0\\
+0&T_2^\dagger&U_3&\cdots&0\\
+\vdots&\vdots&\vdots&\vdots&\vdots\\
+T_6&0&0&\cdots&U_6
+\end{pmatrix}
 $$
 
--  Open chain: $T_6=0$.
--  Closed chain with translational symmetry, $T_n=T,U_n=U$, with
+- Open chain: $T_6=0$.
+- Closed chain with translational symmetry, $T_n=T,U_n=U$, with
 
     $$U=\begin{pmatrix}0&v\\v^*&0\end{pmatrix},T=\begin{pmatrix}0&0\\w&0\end{pmatrix}$$
 
    Using three Pauli matrices
 
-    $$\sigma_x=\begin{pmatrix}0&1\\1&0\end{pmatrix},\sigma_y=\begin{pmatrix}0&-i\\i&0\end{pmatrix},\sigma_z=\begin{pmatrix}1&0\\0&-1\end{pmatrix}$$
+$$\sigma_x=\begin{pmatrix}0&1\\1&0\end{pmatrix},\sigma_y=\begin{pmatrix}0&-i\\i&0\end{pmatrix},\sigma_z=\begin{pmatrix}1&0\\0&-1\end{pmatrix}$$
 
 --------------
 
@@ -448,8 +442,8 @@ define
 
 When
 
--  $|w|>|v|, \nu=1, \mathbf{inter}>\mathbf{intra}$
--  $|w|<|v|, \nu=0, \mathbf{inter}<\mathbf{intra}$
+- $|w|>|v|, \nu=1, \mathbf{inter}>\mathbf{intra}$
+- $|w|<|v|, \nu=0, \mathbf{inter}<\mathbf{intra}$
 
 --------------
 
