@@ -12,22 +12,19 @@
 
 # Lecture 1 : 1-d SSH model
 
-
 ## The Su-Schrieffer--Heeger (SSH) model
 
 The simplest non-trivial topology : 1-d lattice.
 
-Peierls instability makes the atoms dimerize. 
-
+Peierls instability makes the atoms dimerize.
 
 ![](/images/1/1.png)
 
-Polyacetylene Structure: 
+Polyacetylene Structure:
 
 ![](/images/1/2.png)
 
 ## Tight-binding method: first quantization
-
 
 ![](/images/1/3.png)
 
@@ -41,8 +38,6 @@ with periodical potential: $U(x+na)=U(x)$
 Assume single atom potential $V(x)$ with Hamiltonian
 
 $$H_0=\frac{p^2}{2m}+V(x)$$
-
-
 
 and well solved eigen-value and eigen-wave-function:(consider only one
 state)
@@ -90,7 +85,6 @@ $$
 
 ## Second quantization
 
-
 In the second quantization language, the expectation value of energy
 becomes a operator, set $\mathscr{H}=\frac{p^2}{2m}+U(x)$, we have
 
@@ -137,8 +131,10 @@ $$\hat{H}=\sum\limits_k \hat{c}_k^\dagger \hat{c}_k(te^{ika}+t^*e^{-ika})=\sum\l
 which gives us the dispersion relation:
 
 $$
+\begin{align}
    E(k)=&te^{ika}+t^*e^{-ika}\\
    =&2tcoska \qquad \textit{for t is real}
+\end{align}
 $$
 
 On the other hand, keep in mind that we would get
@@ -185,10 +181,9 @@ $t_1\neq t_2$, and we have two sub-bands.
 If each atom have a valance electron, then the above mentioned energy
 band structure $E(k)=2tcoska$ is not the stable fundamental mode,
 it will dimerizes to lower the total energy, that means we'll get
-following coupling case: 
+following coupling case:
 
 ![](/images/1/2.jpg)
-
 
 with the Hamiltonian:
 
@@ -196,8 +191,7 @@ with the Hamiltonian:
 
 with $M=2N$.
 
-Review
-------
+## Review
 
 In 1-d atom chain, we have got the Hamiltonian in second-quantization
 frame as:
@@ -206,7 +200,6 @@ frame as:
 
 $h.c.$ means hermitian conjugation. Rewrite it in matrix form:
 $\hat{H}=\sum\limits_{mn}\hat{c}_m {H}_{mn}\hat{c}_n$, we have
-
 
 $$
    \hat{H}=\begin{pmatrix}c_1^\dagger&c_2^\dagger&\cdots&c_M^\dagger \end{pmatrix}\begin{pmatrix} 0 & t_1 &0 & \cdots&t_M^*\\
@@ -248,10 +241,9 @@ The Hamiltonian:
 
   $$H=\sum_{n=1}^N(v_n c_{n,1}^\dagger c_{n,2}+w_nc_{n,2}^\dagger c_{n+1,1}+h.c.)$$
 
-with $M=2N$. 
+with $M=2N$.
 
 ![](/images/1/2.jpg)
-   
 
 For a more beautiful notation, define
 $\mathbf{c}_n^\dagger=(c_{n,1}^\dagger,c_{n,2}^\dagger)=(c_{2n-1}^\dagger,c_{2n}^\dagger)$,
@@ -261,37 +253,26 @@ then we have
 
 with
 
-
-$$
-   \mathbf{c}_n^\dagger H_{nn}\mathbf{c}_n=\begin{pmatrix}c_{n,1}^\dagger&c_{n,2}^\dagger\end{pmatrix}\begin{pmatrix}0&v_n\\v_n^*&0\end{pmatrix}\begin{pmatrix}c_{n,1}\\c_{n,2}\end{pmatrix}=\begin{pmatrix}c_{n,1}^\dagger&c_{n,2}^\dagger\end{pmatrix}U_n\begin{pmatrix}c_{n,1}\\c_{n,2}\end{pmatrix}
-$$
+$$\mathbf{c}_n^\dagger H_{nn}\mathbf{c}_n=\begin{pmatrix}c_{n,1}^\dagger&c_{n,2}^\dagger\end{pmatrix}\begin{pmatrix}0&v_n\\v_n^*&0\end{pmatrix}\begin{pmatrix}c_{n,1}\\c_{n,2}\end{pmatrix}=\begin{pmatrix}c_{n,1}^\dagger&c_{n,2}^\dagger\end{pmatrix}U_n\begin{pmatrix}c_{n,1}\\c_{n,2}\end{pmatrix}$$
 
 --------------
 
 and
 
+$$\mathbf{c}_n^\dagger H_{nn+1}\mathbf{c}_{n+1}=\begin{pmatrix}c_{n,1}^\dagger&c_{n,2}^\dagger\end{pmatrix}\begin{pmatrix}0&0\\w_n&0\end{pmatrix}\begin{pmatrix}c_{n+1,1}\\c_{n+1,2}\end{pmatrix}=\begin{pmatrix}c_{n,1}^\dagger&c_{n,2}^\dagger\end{pmatrix}T_n\begin{pmatrix}c_{n+1,1}\\c_{n+1,2}\end{pmatrix}$$
 
-$$
-   \mathbf{c}_n^\dagger H_{nn+1}\mathbf{c}_{n+1}=\begin{pmatrix}c_{n,1}^\dagger&c_{n,2}^\dagger\end{pmatrix}\begin{pmatrix}0&0\\w_n&0\end{pmatrix}\begin{pmatrix}c_{n+1,1}\\c_{n+1,2}\end{pmatrix}=\begin{pmatrix}c_{n,1}^\dagger&c_{n,2}^\dagger\end{pmatrix}T_n\begin{pmatrix}c_{n+1,1}\\c_{n+1,2}\end{pmatrix}
-$$
-
-$$
-   \mathbf{c}_{n+1}^\dagger H_{n+1n}\mathbf{c}_{n}=\begin{pmatrix}c_{n+1,1}^\dagger&c_{n+1,2}^\dagger\end{pmatrix}T_n^\dagger\begin{pmatrix}c_{n,1}\\c_{n,2}\end{pmatrix}
-$$
+$$\mathbf{c}_{n+1}^\dagger H_{n+1n}\mathbf{c}_{n}=\begin{pmatrix}c_{n+1,1}^\dagger&c_{n+1,2}^\dagger\end{pmatrix}T_n^\dagger\begin{pmatrix}c_{n,1}\\c_{n,2}\end{pmatrix}$$
 
 when $|m-n|>1$, we have $H_{mn}=0$.
 
 For example, for 6 cells (12 sites), we have
 
-
-$$
-   H=\begin{pmatrix}U_1&T_1&0&\cdots&T_6^\dagger\\
+$$H=\begin{pmatrix}U_1&T_1&0&\cdots&T_6^\dagger\\
    T_1^\dagger&U_2&T_2&\cdots&0\\
    0&T_2^\dagger&U_3&\cdots&0\\
    \vdots&\vdots&\vdots&\vdots&\vdots\\
    T_6&0&0&\cdots&U_6
-   \end{pmatrix}
-$$
+   \end{pmatrix}$$
 
 $$
 H_{mn}=\begin{pmatrix}U_1&T_1&0&\cdots&T_6^\dagger\\
@@ -319,7 +300,6 @@ We get
 
 Using $\mathbf{c}_n=e^{ik(n-1)b}\mathbf{c}_1$, we have
 
-
 $$
    \hat{H}=\begin{pmatrix}\mathbf{c}_1^\dagger&\mathbf{c}_2^\dagger&\cdots&\mathbf{c}_N^\dagger \end{pmatrix}
    \begin{pmatrix} U & T &0 & \cdots&T^\dagger\\
@@ -330,7 +310,6 @@ $$
    \end{pmatrix}
    \begin{pmatrix}\mathbf{c}_1\\\mathbf{c}_2\\\vdots\\\mathbf{c}_N\end{pmatrix}
 $$
-
 
 $$
    \Rightarrow \begin{pmatrix}\mathbf{c}_1^\dagger&\mathbf{c}_1^\dagger e^{-ikb}&\cdots&\mathbf{c}_1^\dagger e^{-ik(N-1)b} \end{pmatrix}
@@ -343,8 +322,6 @@ $$
    \begin{pmatrix}\mathbf{c}_1\\\mathbf{c}_1 e^{ikb}\\\vdots\\\mathbf{c}_1e^{ik(N-1)b}\end{pmatrix}
 $$
 --------------
-
-
 
 $$
    =\begin{pmatrix}\mathbf{c}_1^\dagger&\cdots&\mathbf{c}_1^\dagger \end{pmatrix}
@@ -362,7 +339,6 @@ $H=H(k)\oplus H(k)\cdots \oplus H(k)=\oplus_{n=1}^N H(k)$ with
 
 with
 
-
 $$
    h_x(k)=&Re(v)+|w|cos(kb+arg(w))\\
    h_y(k)=&-Im(v)+|w|sin(kb+arg(w))\\
@@ -377,7 +353,6 @@ with $w=|w|e^{i arg(w)}$.
 
 with
 
-
 $$
    h_x(k)=&Re(v)+|w|cos(kb+arg(w))\\
    h_y(k)=&-Im(v)+|w|sin(kb+arg(w))\\
@@ -390,7 +365,6 @@ with eigen-energy
 
 and eigen-wavefunctions
 
-
 $$
    |\pm\rangle=\begin{pmatrix}\pm e^{-i\phi(k)}\\
    1\end{pmatrix}
@@ -400,10 +374,9 @@ with $tan\phi=h_y/h_x$.
 
 --------------
 
-For example, set $arg(v)=arg(w)=0$, we have 
+For example, set $arg(v)=arg(w)=0$, we have
 
 ![](/images/1/energy.png)
-
 
 Can not tell the difference $|v|-|w|=\pm\delta$.
 
@@ -417,15 +390,14 @@ $|h|$, in topological aspect, $\mathbf{h}(k)$ will suffices.
 
 Set $arg(v)=0$,\ $kb=[0,2\pi]$, we have two cases
 
--  $|w|<|v|, \mathbf{inter}<\mathbf{intra}$
--  $|w|>|v|, \mathbf{inter}>\mathbf{intra}$
+- $|w|<|v|, \mathbf{inter}<\mathbf{intra}$
+- $|w|>|v|, \mathbf{inter}>\mathbf{intra}$
 
 --------------
 
 ![](/images/1/two.png)
- 
 
-   two cases
+two cases
 Winding number
 --------------
 
@@ -452,41 +424,31 @@ A example, $N=20, M=2N=40, w=1, v=0.5$, we get eigen-energys:
 
 ![](/images/1/4.png)
 
-
-
    eigen-energy
 
 --------------
 
 ![](/images/1/a-.png)
 
-   
 ![](/images/1/a+.png)
 
-   
-   
 ![](/images/1/b-.png)
-
-   
 
 ![](/images/1/b+.png)
 
-
 --------------
 
-Edge-states: 
+Edge-states:
 
 ![](/images/1/c1.png)
 
-
 ![](/images/1/c2.png)
-
 
 Chiral symmetry
 ---------------
+
 ![](/images/1/2.jpg)
   
-
 Recalling the Hamiltonian:
 
  $$H=\sum_{n=1}^N(v_n c_{n,1}^\dagger c_{n,2}+w_nc_{n,2}^\dagger c_{n+1,1}+h.c.)$$
@@ -525,7 +487,6 @@ and inherits the algebra from $\sigma_z$:
 
 Recalling
 
-
 $$
    \begin{pmatrix} U_1 & T_1 &0 & \cdots&T_N^\dagger\\
    T_1^\dagger &U_2&T_2&\cdots&0\\
@@ -541,8 +502,7 @@ There are no **onsite terms** in the Hamiltonian, so we have
 
 This is the chiral symmetry.
 
-.. Note::
-   Actually, here, $H$ is defined in momentum space, but
+> Actually, here, $H$ is defined in momentum space, but
    $\Sigma_z$ in real space, we should write
    $\tilde{H}=U^\dagger H U$ for some unitary matrix $U$, but
    the property survives!
@@ -558,14 +518,14 @@ have
 
  If
 
--  $E_n\neq 0$, two orthonormal states
+- $E_n\neq 0$, two orthonormal states
    $|\psi_n\rangle, \Sigma_z|\psi_n\rangle$, which gives
 
-    $$\begin{pmatrix}\alpha^* &\beta^*\end{pmatrix}\begin{pmatrix}\alpha\\-\beta\end{pmatrix}=0$$
+    $$\begin{pmatrix}\alpha^*&\beta^*\end{pmatrix}\begin{pmatrix}\alpha\\-\beta\end{pmatrix}=0$$
 
     $$\Rightarrow |\alpha|^2=|\beta|^2$$
 
--  $E_n=0$, we particularly have $\Sigma_z=\Sigma_zH$,
+- $E_n=0$, we particularly have $\Sigma_z=\Sigma_zH$,
    $|\psi_n\rangle$ can be eigen-states of $H$ and
    $\Sigma$ simultaneously,
    $\Sigma_z|\psi_n\rangle=\pm|\psi_n\rangle$, gives
@@ -578,26 +538,20 @@ Review 2
 In the last class, we have solved 1-d atom chain with staggered hopping
 parameters and got the Hamiltonian:
 
-
-
-   $$H(k)=\mathbf{h}(k)\cdot \mathbf{\sigma}=\begin{pmatrix}0&h_x-ih_y\\h_x+ih_y&0\end{pmatrix}=|h(k)|\begin{pmatrix}0&e^{-i\phi(k)}\\e^{i\phi(k)}&0\end{pmatrix}$$
+$$H(k)=\mathbf{h}(k)\cdot \mathbf{\sigma}=\begin{pmatrix}0&h_x-ih_y\\h_x+ih_y&0\end{pmatrix}=|h(k)|\begin{pmatrix}0&e^{-i\phi(k)}\\e^{i\phi(k)}&0\end{pmatrix}$$
 
 with $tan\phi=h_y/h_x$.
 
 Eigen-values are $E(k)=\pm|h(k)|$, with eigen-functions:
 $|\pm\rangle=\begin{pmatrix}\pm e^{-i\phi(k)}\\ 1\end{pmatrix}$.
 
---------------
-
 $\mathbf{h}(k)$ depicted as follow:
 
 ![](/images/1/two.png)
 
-   
-
    Topological transition
-Topological transition
-----------------------
+
+## Topological transition
 
 We have already seen, for $|w|>|v|$ or $|w|<|v|$, we got
 different **winding number**, means there is a topological transition at
@@ -614,10 +568,8 @@ transition:
 Case 1(a): $v=0.5, w=0\to 1$
 
 ![](/images/1/a.jpg)
-   
 
 ![](/images/1/figure_1a.png)
-   
 
 --------------
 
@@ -625,10 +577,7 @@ Case 1(b): $w=1, v=2.5\to 0$
 
 ![](/images/1/c.jpg
 
-
 ![](/images/1/figure_3.png)
-
-
 
 --------------
 
@@ -646,11 +595,7 @@ Set $w=1, v=1.5-cos\theta, u=sin\theta, \theta=0\to \pi$,
 
 ![](/images/1/b.jpg)
 
-
 ![](/images/1/figure_2.png)
-
-
--------------
 
 Case 3: Charge Pump: Using the Hamiltonian
 $H=u(t)\sum\limits_{i=1}^N(-1)^{i-1}c_i^{\dagger}c_i+\sum\limits_{i=1}^N[t_0+\delta(t)(-1)^i](c_i^{\dagger}c_{i+1}+h.c.)$,
@@ -665,9 +610,8 @@ vector $\vec{h(k)}$ is
 ![](/images/1/5b.png)
 
 ![](/images/1/5c.png)
-   
+
 ![](/images/1/5d.png)
- 
 
 --------------
 
@@ -675,13 +619,11 @@ The energy band evolution is
 
 ![](/images/1/figure_4.png)
 
-
    energy4
 
 ![](/images/1/1a.png)
 
 ![](/images/1/2a.png)
-
 
 ## Winding number v.s. Zak phase
 
@@ -701,3 +643,5 @@ From the Zak phase definition:
 
 Recalling
 $|\psi\rangle=\frac{1}{\sqrt{2}}\begin{pmatrix}\pm e^{-i\phi(k)}\\ 1\end{pmatrix}\Rightarrow\gamma=\frac{1}{{2}}\oint dk\nabla_k\phi=\pm\pi \ \textit{or}\  0$.
+
+[1] <https://github.com/bczhu/phyx>
