@@ -21,19 +21,19 @@ The simplest non-trivial topology : 1-d lattice.
 Peierls instability makes the atoms dimerize. 
 
 
-![](/images/1/1.png)  
+![](/images/1/1.png))  
    
 
 Polyacetylene Structure: 
 
 
-![](/images/1/2.png) 
+![](/images/1/2.png)) 
 
 ## Tight-binding method: first quantization
 ---------------------------------------
 
 
-![](/images/1/3.png) 
+![](/images/1/3.png)) 
    1-d atom chain
 Tight-binding method: Single electron total Hamiltonian in atom chain:
 
@@ -189,9 +189,8 @@ band structure $E(k)=2tcoska$ is not the stable fundamental mode,
 it will dimerizes to lower the total energy, that means we'll get
 following coupling case: 
 
-.. figure:: images/1/2.jpg
-   :width: 70%
-   :align: center
+![](/images/1/2.jpg
+
 
 with the Hamiltonian:
 
@@ -253,9 +252,8 @@ The Hamiltonian:
 
 with $M=2N$. 
 
-.. figure:: images/1/2.jpg
-   :width: 70%
-   :align: center
+![](/images/1/2.jpg
+   
 
 For a more beautiful notation, define
 $\mathbf{c}_n^\dagger=(c_{n,1}^\dagger,c_{n,2}^\dagger)=(c_{2n-1}^\dagger,c_{2n}^\dagger)$,
@@ -409,9 +407,8 @@ with $tan\phi=h_y/h_x$.
 
 For example, set $arg(v)=arg(w)=0$, we have 
 
-.. figure:: images/1/energy.png
-   :width: 70%
-   :align: center
+![](/images/1/energy.png)
+
 
 Can not tell the difference $|v|-|w|=\pm\delta$.
 
@@ -430,10 +427,8 @@ Set $arg(v)=0$,\ $kb=[0,2\pi]$, we have two cases
 
 --------------
 
-.. figure:: images/1/two.png
-   :alt: two cases
-   :width: 90%
-   :align: center
+![](/images/1/two.png)
+ 
 
    two cases
 Winding number
@@ -460,48 +455,42 @@ When
 
 A example, $N=20, M=2N=40, w=1, v=0.5$, we get eigen-energys:
 
-.. figure:: images/1/4.png
-   :alt: eigen-energy
-   :width: 70%
-   :align: center
+![](/images/1/4.png)
+
 
 
    eigen-energy
 
 --------------
 
-.. figure:: images/1/a-.png
-   :width: 55%
-   :align: center
-.. figure:: images/1/a+.png
-   :width: 55%
-   :align: center
-   
-.. figure:: images/1/b-.png
-   :width: 55%
-   :align: center
+![](/images/1/a-.png)
 
-.. figure:: images/1/b+.png
-   :width: 55%
-   :align: center
+   
+![](/images/1/a+.png)
+
+   
+   
+![](/images/1/b-.png)
+
+   
+
+![](/images/1/b+.png)
+
 
 --------------
 
 Edge-states: 
 
-.. figure:: images/1/c1.png
-   :width: 55%
-   :align: center
+![](/images/1/c1.png)
 
-.. figure:: images/1/c2.png
-   :width: 55%
-   :align: center
+
+![](/images/1/c2.png)
+
 
 Chiral symmetry
 ---------------
-.. figure:: images/1/2.jpg
-   :width: 70%
-   :align: center 
+![](/images/1/2.jpg
+  
 
 Recalling the Hamiltonian:
 
@@ -607,10 +596,9 @@ $|\pm\rangle=\begin{pmatrix}\pm e^{-i\phi(k)}\\ 1\end{pmatrix}$.
 
 $\mathbf{h}(k)$ depicted as follow:
 
-.. figure:: images/1/two.png
-   :alt: Topological transition
-   :width: 90%
-   :align: center
+![](/images/1/two.png)
+
+   
 
    Topological transition
 Topological transition
@@ -630,25 +618,21 @@ transition:
 
 Case 1(a): $v=0.5, w=0\to 1$
 
-.. figure:: images/1/a.jpg
-   :width: 70%
-   :align: center
+![](/images/1/a.jpg
+   
 
-.. figure:: images/1/figure_1a.png
-   :width: 70%
-   :align: center
+![](/images/1/figure_1a.png)
+   
 
 --------------
 
 Case 1(b): $w=1, v=2.5\to 0$
 
-.. figure:: images/1/c.jpg
-   :width: 70%
-   :align: center
+![](/images/1/c.jpg
 
-.. figure:: images/1/figure_3.png
-   :width: 70%
-   :align: center
+
+![](/images/1/figure_3.png)
+
 
 
 --------------
@@ -665,13 +649,11 @@ $H(k)=\mathbf{h}(k)\cdot\mathbf{\sigma}$ with $h_z(k)=u$.
 
 Set $w=1, v=1.5-cos\theta, u=sin\theta, \theta=0\to \pi$,
 
-.. figure:: images/1/b.jpg
-   :width: 70%
-   :align: center
+![](/images/1/b.jpg
 
-.. figure:: images/1/figure_2.png
-   :width: 70%
-   :align: center
+
+![](/images/1/figure_2.png)
+
 
 -------------
 
@@ -683,36 +665,28 @@ $v=t_0-\delta(t), w=t_0+\delta(t)$. set
 $u=sin\theta, v=0.75-0.25cos\theta, w=0.75+0.25cos\theta$, the
 vector $\vec{h(k)}$ is
 
-.. figure:: images/1/5a.png
-   :width: 50%
-   :align: center
-.. figure:: images/1/5b.png
-   :width: 50%
-   :align: center
-.. figure:: images/1/5c.png
-   :width: 50%
-   :align: center
-.. figure:: images/1/5d.png
-   :width: 50%
-   :align: center
+![](/images/1/5a.png)
+
+![](/images/1/5b.png)
+
+![](/images/1/5c.png)
+   
+![](/images/1/5d.png)
+ 
 
 --------------
 
 The energy band evolution is
 
-.. figure:: images/1/figure_4.png
-   :alt: energy4
-   :width: 70%
-   :align: center
+![](/images/1/figure_4.png)
+
 
    energy4
 
-.. figure:: images/1/1a.png
-   :width: 50%
-   :align: center
-.. figure:: images/1/2a.png
-   :width: 50%
-   :align: center
+![](/images/1/1a.png)
+
+![](/images/1/2a.png)
+
 
 Winding number v.s. Zak phase
 -----------------------------
