@@ -20,16 +20,17 @@ The simplest non-trivial topology : 1-d lattice.
 Peierls instability makes the atoms dimerize. 
 
 
-[](/images/1/1.png)
+![](/images/1/1.png)
 
 Polyacetylene Structure: 
 
-[](/images/1/2.png)
+![](/images/1/2.png)
 
 ## Tight-binding method: first quantization
 
 
-[](/images/1/3.png)
+![](/images/1/3.png)
+
    1-d atom chain
 Tight-binding method: Single electron total Hamiltonian in atom chain:
 
@@ -41,7 +42,7 @@ Assume single atom potential $V(x)$ with Hamiltonian
 
 $$H_0=\frac{p^2}{2m}+V(x)$$
 
---------------
+
 
 and well solved eigen-value and eigen-wave-function:(consider only one
 state)
@@ -80,8 +81,11 @@ Consider only the nearest-hopping interaction, define
 $J_0=J(0), J=J(\pm a)$, then we have:
 
 $$
-E-E_0+J_0=&-J(e^{ika}+e^{-ika}) \\
-   =&-2Jcoska
+\begin{align}
+
+E-E_0+J_0&=-J(e^{ika}+e^{-ika}) \\
+   &=-2Jcoska
+\end{align}
 $$
 
 ## Second quantization
@@ -117,7 +121,8 @@ $$
    0&t_2^*&0&\cdots&0\\
    \vdots&\vdots&\vdots&\vdots&\vdots\\
    t_M&0&0&t_{M-1}^*&0
-   \end{pmatrix}$$
+   \end{pmatrix}
+$$
 
 In the case when $t=t_n$, $\hat{c}_n$ satisfy the Bloch
 condition, we can transform it into momentum space, with
@@ -127,7 +132,7 @@ $\hat{c}_n=\frac{1}{\sqrt{M}}\sum\limits_k \hat{c}_k e^{ikx_n}$,
 
 we can easily get
 
-$$ \hat{H}=\sum\limits_k \hat{c}_k^\dagger \hat{c}_k(te^{ika}+t^*e^{-ika})=\sum\limits_k \hat{c}_k^\dagger \hat{c}_k E(k)$$
+$$\hat{H}=\sum\limits_k \hat{c}_k^\dagger \hat{c}_k(te^{ika}+t^*e^{-ika})=\sum\limits_k \hat{c}_k^\dagger \hat{c}_k E(k)$$
 
 which gives us the dispersion relation:
 
@@ -182,7 +187,7 @@ band structure $E(k)=2tcoska$ is not the stable fundamental mode,
 it will dimerizes to lower the total energy, that means we'll get
 following coupling case: 
 
-[](/images/1/2.jpg)
+![](/images/1/2.jpg)
 
 
 with the Hamiltonian:
@@ -245,7 +250,7 @@ The Hamiltonian:
 
 with $M=2N$. 
 
-[](/images/1/2.jpg)
+![](/images/1/2.jpg)
    
 
 For a more beautiful notation, define
@@ -397,7 +402,7 @@ with $tan\phi=h_y/h_x$.
 
 For example, set $arg(v)=arg(w)=0$, we have 
 
-[](/images/1/energy.png)
+![](/images/1/energy.png)
 
 
 Can not tell the difference $|v|-|w|=\pm\delta$.
@@ -417,7 +422,7 @@ Set $arg(v)=0$,\ $kb=[0,2\pi]$, we have two cases
 
 --------------
 
-[](/images/1/two.png)
+![](/images/1/two.png)
  
 
    two cases
@@ -445,7 +450,7 @@ When
 
 A example, $N=20, M=2N=40, w=1, v=0.5$, we get eigen-energys:
 
-[](/images/1/4.png)
+![](/images/1/4.png)
 
 
 
@@ -453,33 +458,33 @@ A example, $N=20, M=2N=40, w=1, v=0.5$, we get eigen-energys:
 
 --------------
 
-[](/images/1/a-.png)
+![](/images/1/a-.png)
 
    
-[](/images/1/a+.png)
+![](/images/1/a+.png)
 
    
    
-[](/images/1/b-.png)
+![](/images/1/b-.png)
 
    
 
-[](/images/1/b+.png)
+![](/images/1/b+.png)
 
 
 --------------
 
 Edge-states: 
 
-[](/images/1/c1.png)
+![](/images/1/c1.png)
 
 
-[](/images/1/c2.png)
+![](/images/1/c2.png)
 
 
 Chiral symmetry
 ---------------
-[](/images/1/2.jpg)
+![](/images/1/2.jpg)
   
 
 Recalling the Hamiltonian:
@@ -586,7 +591,7 @@ $|\pm\rangle=\begin{pmatrix}\pm e^{-i\phi(k)}\\ 1\end{pmatrix}$.
 
 $\mathbf{h}(k)$ depicted as follow:
 
-[](/images/1/two.png)
+![](/images/1/two.png)
 
    
 
@@ -608,20 +613,20 @@ transition:
 
 Case 1(a): $v=0.5, w=0\to 1$
 
-[](/images/1/a.jpg)
+![](/images/1/a.jpg)
    
 
-[](/images/1/figure_1a.png)
+![](/images/1/figure_1a.png)
    
 
 --------------
 
 Case 1(b): $w=1, v=2.5\to 0$
 
-[](/images/1/c.jpg
+![](/images/1/c.jpg
 
 
-[](/images/1/figure_3.png)
+![](/images/1/figure_3.png)
 
 
 
@@ -639,10 +644,10 @@ $H(k)=\mathbf{h}(k)\cdot\mathbf{\sigma}$ with $h_z(k)=u$.
 
 Set $w=1, v=1.5-cos\theta, u=sin\theta, \theta=0\to \pi$,
 
-[](/images/1/b.jpg)
+![](/images/1/b.jpg)
 
 
-[](/images/1/figure_2.png)
+![](/images/1/figure_2.png)
 
 
 -------------
@@ -655,27 +660,27 @@ $v=t_0-\delta(t), w=t_0+\delta(t)$. set
 $u=sin\theta, v=0.75-0.25cos\theta, w=0.75+0.25cos\theta$, the
 vector $\vec{h(k)}$ is
 
-[](/images/1/5a.png)
+![](/images/1/5a.png)
 
-[](/images/1/5b.png)
+![](/images/1/5b.png)
 
-[](/images/1/5c.png)
+![](/images/1/5c.png)
    
-[](/images/1/5d.png)
+![](/images/1/5d.png)
  
 
 --------------
 
 The energy band evolution is
 
-[](/images/1/figure_4.png)
+![](/images/1/figure_4.png)
 
 
    energy4
 
-[](/images/1/1a.png)
+![](/images/1/1a.png)
 
-[](/images/1/2a.png)
+![](/images/1/2a.png)
 
 
 ## Winding number v.s. Zak phase
