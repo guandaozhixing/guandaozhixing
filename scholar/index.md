@@ -68,7 +68,7 @@ $$\sum_n \langle \phi_m|\Delta U(x-x_n)|\phi_n\rangle a_n=(E-E_0)a_m$$
 --------------
 
 Define:
-$$\langle \phi(x-ma+na)|\Delta U(x) |\phi(x)\rangle=-J(x_m-x_n)$$
+$\langle \phi(x-ma+na)|\Delta U(x) |\phi(x)\rangle=-J(x_m-x_n)$
 
 We get:
 
@@ -91,13 +91,13 @@ $J_0=J(0), J=J(\pm a)$, then we have:
 -------------------
 
 In the second quantization language, the expectation value of energy
-becomes a operator, set :math:`\mathscr{H}=\frac{p^2}{2m}+U(x)`, we have
+becomes a operator, set $\mathscr{H}=\frac{p^2}{2m}+U(x)$, we have
 
-.. math:: H=\langle \psi|\mathscr{H}|\psi \rangle \Rightarrow \hat{H}=\sum_{m,n}\hat{c}_m^\dagger H_{mn}\hat{c}_n
+$$H=\langle \psi|\mathscr{H}|\psi \rangle \Rightarrow \hat{H}=\sum_{m,n}\hat{c}_m^\dagger H_{mn}\hat{c}_n$$
 
 with
-:math:`\psi \to \hat{\psi}=\sum\limits_n \hat{c}_n \phi_n, H_{mn}=\langle \phi|\mathscr{H}|\phi \rangle`
-:math:`\phi_n` is a orthonormal and complete basis in *Hilbert space*,
+$\psi \to \hat{\psi}=\sum\limits_n \hat{c}_n \phi_n, H_{mn}=\langle \phi|\mathscr{H}|\phi \rangle$
+$\phi_n$ is a orthonormal and complete basis in *Hilbert space*,
 like plane-waves :math:`e^{ikx}` or energy eigen-states of :math:`H_0`,
 :math:`\mathscr{H}` is the energy operator in single particle first
 quantization picture, which can only act on Hilbert space, while the
